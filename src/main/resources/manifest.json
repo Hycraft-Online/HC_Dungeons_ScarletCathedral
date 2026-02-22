@@ -1,0 +1,15 @@
+{
+  "Group": "${group}",
+  "Name": "${name}",
+  "Version": "${version}",
+  "Description": "${description}",
+  "Authors": [
+    {"Name": "HyCraft"}
+  ],
+  "ServerVersion": "${server_version}",
+  "IncludesAssetPack": true,
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "${entry_point}"
+}

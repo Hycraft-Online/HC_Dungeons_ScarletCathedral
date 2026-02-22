@@ -1,0 +1,46 @@
+{
+  "TranslationProperties": {
+    "Name": "ScarletCathedral.items.PortalKey.name",
+    "Description": "ScarletCathedral.items.PortalKey.description"
+  },
+  "Icon": "Icons/ItemsGenerated/PortalKey_Howling_Sands.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "PortalKey": {
+    "PortalType": "ScarletMonasteryCathedral_PortalType",
+    "TimeLimitSeconds": 1800
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Miscellaneous/Portal_Shard.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Portal_Shard_Texture.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Portal"
+    ]
+  },
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      22.5,
+      137.0,
+      22.5
+    ],
+    "Translation": [
+      0.0,
+      1.0
+    ]
+  }
+}

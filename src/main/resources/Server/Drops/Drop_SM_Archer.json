@@ -1,0 +1,46 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 2,
+        "Comment": "Materials: Ranged-themed",
+        "Containers": [
+          { "Type": "Single", "Weight": 10, "Item": { "ItemId": "Ingredient_Fibre", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 8, "Item": { "ItemId": "Ingredient_Stick", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Ingredient_Leather_Medium", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 5, "Item": { "ItemId": "Ore_Thorium", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Ingredient_Bar_Thorium", "QuantityMin": 1, "QuantityMax": 1 } }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Comment": "Equipment: Bows and light gear",
+        "Containers": [
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Shortbow_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Weapon_Daggers_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Head", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Chest", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 8, "Item": { "ItemId": "Weapon_Arrow_Crude", "QuantityMin": 5, "QuantityMax": 12 } },
+          { "Type": "Empty", "Weight": 83 }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Comment": "Consumables",
+        "Containers": [
+          { "Type": "Single", "Weight": 10, "Item": { "ItemId": "Potion_Health_Greater", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 8, "Item": { "ItemId": "Food_Wildmeat_Cooked", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 10, "Item": { "ItemId": "Weapon_Arrow_Crude", "QuantityMin": 5, "QuantityMax": 10 } },
+          { "Type": "Empty", "Weight": 40 }
+        ]
+      }
+    ]
+  }
+}

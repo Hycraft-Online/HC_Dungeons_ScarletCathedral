@@ -1,0 +1,45 @@
+{
+  "Version": 4,
+  "SpawnProvider": {
+    "Type": "Global",
+    "SpawnPoint": {
+      "X": 9.13,
+      "Y": 7.0,
+      "Z": 93.58,
+      "Pitch": 0.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    }
+  },
+  "WorldGen": {
+    "Type": "Flat",
+    "Tint": "#5b9e28",
+    "Layers": [
+      {
+        "From": 0,
+        "To": 1,
+        "BlockType": "Soil_Grass",
+        "Environment": "Env_Zone1_Plains"
+      }
+    ]
+  },
+  "WorldMap": {
+    "Type": "Disabled"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "IsTicking": true,
+  "IsBlockTicking": true,
+  "IsPvpEnabled": false,
+  "IsFallDamageEnabled": true,
+  "IsSpawningNPC": true,
+  "IsSavingPlayers": false,
+  "IsSavingChunks": false,
+  "SaveNewChunks": false,
+  "DeleteOnUniverseStart": false,
+  "DeleteOnRemove": true,
+  "ResourceStorage": {
+    "Type": "Hytale"
+  }
+}

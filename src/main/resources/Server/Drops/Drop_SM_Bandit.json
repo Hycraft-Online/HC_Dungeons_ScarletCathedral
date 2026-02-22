@@ -1,0 +1,47 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 2,
+        "Comment": "Materials: Rogue-themed",
+        "Containers": [
+          { "Type": "Single", "Weight": 10, "Item": { "ItemId": "Ingredient_Fabric_Scrap_Linen", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 8, "Item": { "ItemId": "Ingredient_Leather_Medium", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 5, "Item": { "ItemId": "Ore_Thorium", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 5, "Item": { "ItemId": "Ingredient_Charcoal", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Ingredient_Bar_Thorium", "QuantityMin": 1, "QuantityMax": 1 } }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Comment": "Equipment: Thorium light gear (rare)",
+        "Containers": [
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Daggers_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Weapon_Sword_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Head", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Chest", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Hands", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Legs", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Empty", "Weight": 87 }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Comment": "Consumables",
+        "Containers": [
+          { "Type": "Single", "Weight": 10, "Item": { "ItemId": "Potion_Health_Greater", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 8, "Item": { "ItemId": "Food_Wildmeat_Cooked", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Weapon_Arrow_Crude", "QuantityMin": 3, "QuantityMax": 8 } },
+          { "Type": "Empty", "Weight": 40 }
+        ]
+      }
+    ]
+  }
+}

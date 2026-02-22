@@ -1,0 +1,64 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 3,
+        "Comment": "Materials: Military-grade",
+        "Containers": [
+          { "Type": "Single", "Weight": 10, "Item": { "ItemId": "Ore_Thorium", "QuantityMin": 1, "QuantityMax": 3 } },
+          { "Type": "Single", "Weight": 7, "Item": { "ItemId": "Ingredient_Bar_Thorium", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Ore_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Ingredient_Leather_Heavy", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 5, "Item": { "ItemId": "Ingredient_Bar_Silver", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 5, "Item": { "ItemId": "Ingredient_Charcoal", "QuantityMin": 2, "QuantityMax": 5 } }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Comment": "Equipment: Thorium gear",
+        "Containers": [
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Sword_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Longsword_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Spear_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Shield_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Mace_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Head", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Chest", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Hands", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Armor_Thorium_Legs", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Tool_Repair_Kit_Iron", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Empty", "Weight": 74 }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Comment": "Consumables",
+        "Containers": [
+          { "Type": "Single", "Weight": 12, "Item": { "ItemId": "Potion_Health_Greater", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 8, "Item": { "ItemId": "Food_Pie_Meat", "QuantityMin": 1, "QuantityMax": 2 } },
+          { "Type": "Single", "Weight": 8, "Item": { "ItemId": "Food_Wildmeat_Cooked", "QuantityMin": 2, "QuantityMax": 5 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Weapon_Arrow_Crude", "QuantityMin": 4, "QuantityMax": 10 } },
+          { "Type": "Empty", "Weight": 35 }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Comment": "Gems (rare)",
+        "Containers": [
+          { "Type": "Single", "Weight": 2, "Item": { "ItemId": "Rock_Gem_Ruby", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 1, "Item": { "ItemId": "Rock_Gem_Diamond", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Empty", "Weight": 97 }
+        ]
+      }
+    ]
+  }
+}

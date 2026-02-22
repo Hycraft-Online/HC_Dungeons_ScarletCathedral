@@ -1,0 +1,21 @@
+npcRoles.KF_Fire_Queen_SM.name=High Inquisitor Ignis
+
+items.PortalKey.name=Fragment: Scarlet Cathedral
+items.PortalKey.description=A blood-red crystal pulsing with fanatical energy. Beyond the portal lies the Scarlet Cathedral, seat of the Scarlet Crusade's twisted faith. Soldiers, archers, and bandits guard the crimson halls, and <color is="#ff6a00">High Inquisitor Ignis</color> awaits at the altar.\n\nUse on a Portal Device to enter.
+
+items.PortalKey_Heroic.name=Fragment: Scarlet Cathedral (Heroic)
+items.PortalKey_Heroic.description=A blood-red crystal radiating overwhelming fanatical energy. The Scarlet Crusade has been empowered by unholy fire, and <color is="#ff6a00">High Inquisitor Ignis</color> has transcended mortal limits.\n\nUse on a Portal Device to enter.\n\n<color is="#ff4444"><b>HEROIC MODE</b> - Requires a group of 5 players with a well-planned composition of tanks, healers, and damage dealers. Unique boss weapons can only be found here.</color>
+
+portals.cathedral=Scarlet Monastery: Cathedral
+portals.cathedral.description=The crimson halls of the Scarlet Crusade echo with fanatical devotion. Soldiers, archers, and bandits guard every corridor, and <color is="#ff6a00">High Inquisitor Ignis</color> commands devastating fire magic from the altar. Fight your way through the cathedral and bring the Inquisitor to justice.
+portals.cathedral.tip1=<color is="#cc2222"><b>Recommended Level: 35-40</b></color>
+portals.cathedral.tip2=<color is="#cc2222">Recommended for 1-3 players.</color>
+portals.cathedral.tip3=<color is="#cc2222">The cathedral is guarded by soldiers, archers, and bandits.</color>
+portals.cathedral.tip4=<color is="#cc2222">High Inquisitor Ignis commands devastating fire magic.</color>
+
+portals.cathedral_heroic=Scarlet Monastery: Cathedral (Heroic)
+portals.cathedral_heroic.description=<color is="#ff4444"><b>HEROIC MODE</b></color>\n\nThe crimson halls burn with unholy fire. <color is="#ff6a00">High Inquisitor Ignis</color> has been empowered beyond mortal limits. A full group of 5 with a balanced composition of tanks, healers, and damage dealers is essential.\n\n<color is="#ff4444">Unique boss weapons can only be found in Heroic mode.</color>
+portals.cathedral_heroic.tip1=<color is="#ff4444"><b>HEROIC - Recommended Level: 35-40</b></color>
+portals.cathedral_heroic.tip2=<color is="#ff4444">Requires a group of 5 with a balanced composition.</color>
+portals.cathedral_heroic.tip3=<color is="#ff4444">High Inquisitor Ignis commands devastating fire magic.</color>
+portals.cathedral_heroic.tip4=<color is="#ff4444">Unique boss weapons drop only in Heroic mode.</color>

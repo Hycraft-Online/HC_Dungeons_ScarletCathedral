@@ -1,0 +1,22 @@
+{
+  "InstanceId": "ScarletMonasteryCathedral",
+  "Description": {
+    "DisplayName": "ScarletCathedral.portals.cathedral",
+    "FlavorText": "ScarletCathedral.portals.cathedral.description",
+    "ThemeColor": "#cc2222ff",
+    "SplashImage": "ScarletCathedral.png",
+    "Tips": [
+      "ScarletCathedral.portals.cathedral.tip1",
+      "ScarletCathedral.portals.cathedral.tip2",
+      "ScarletCathedral.portals.cathedral.tip3",
+      "ScarletCathedral.portals.cathedral.tip4"
+    ]
+  },
+  "PlayerSpawn": {
+    "X": 9.13,
+    "Y": 7.0,
+    "Z": 93.58,
+    "Yaw": 0,
+    "Pitch": 0
+  }
+}
