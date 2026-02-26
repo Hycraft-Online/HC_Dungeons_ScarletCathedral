@@ -39,7 +39,15 @@
   "SaveNewChunks": false,
   "DeleteOnUniverseStart": false,
   "DeleteOnRemove": true,
+  "GameplayConfig": "Config_ScarletCathedral",
   "ResourceStorage": {
     "Type": "Hytale"
+  },
+  "Instance": {
+    "RemovalConditions": [
+      {
+        "Type": "WorldEmpty"
+      }
+    ]
   }
 }

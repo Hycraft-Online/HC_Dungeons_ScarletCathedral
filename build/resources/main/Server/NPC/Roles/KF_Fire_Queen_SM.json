@@ -28,6 +28,14 @@
       "Value": false,
       "Description": "When set to false, NPCs wont try to avoid each other or player, it can lead to them stacking together, but can help to avoid jerky-like movemenet in enclosed space."
     },
+    "LeashDistance": {
+      "Value": 30,
+      "Description": "The range after which the NPC will start to want to return to their spawn point."
+    },
+    "HardLeashDistance": {
+      "Value": 50,
+      "Description": "An absolute maximum from the leash position the NPC can go before turning back."
+    },
     "NameTranslationKey": {
       "Value": "server.npcRoles.KF_Fire_Queen_SM.name",
       "Description": "Translation key for NPC name display"
@@ -49,6 +57,12 @@
     "Weapons": [],
     "OffHand": [],
     "LeashMinPlayerDistance": 4,
+    "LeashDistance": {
+      "Compute": "LeashDistance"
+    },
+    "HardLeashDistance": {
+      "Compute": "HardLeashDistance"
+    },
     "FlockArray": {
       "Compute": "FlockArray"
     },

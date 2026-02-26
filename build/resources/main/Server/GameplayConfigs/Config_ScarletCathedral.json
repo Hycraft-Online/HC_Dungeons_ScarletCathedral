@@ -1,0 +1,28 @@
+{
+  "Parent": "Default",
+  "Death": {
+    "ItemsLossMode": "None",
+    "RespawnController": {
+      "Type": "WorldSpawnPoint"
+    }
+  },
+  "World": {
+    "AllowBlockBreaking": false,
+    "AllowBlockGathering": false,
+    "AllowBlockPlacement": false
+  },
+  "Combat": {
+    "DisplayHealthBars": true,
+    "DisplayCombatText": true
+  },
+  "Plugin": {
+    "Portal": {
+      "VoidEvent": {
+        "DurationSeconds": 180
+      }
+    }
+  },
+  "WorldMap": {
+    "DisplaySpawn": false
+  }
+}
