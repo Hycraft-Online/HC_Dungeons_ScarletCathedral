@@ -2,6 +2,7 @@
   "Parent": "Default",
   "Death": {
     "ItemsLossMode": "None",
+    "ItemsDurabilityLossPercentage": 0,
     "RespawnController": {
       "Type": "WorldSpawnPoint"
     }

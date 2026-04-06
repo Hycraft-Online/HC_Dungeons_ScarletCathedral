@@ -29,11 +29,11 @@
       "Description": "When set to false, NPCs wont try to avoid each other or player, it can lead to them stacking together, but can help to avoid jerky-like movemenet in enclosed space."
     },
     "LeashDistance": {
-      "Value": 30,
+      "Value": 100,
       "Description": "The range after which the NPC will start to want to return to their spawn point."
     },
     "HardLeashDistance": {
-      "Value": 50,
+      "Value": 150,
       "Description": "An absolute maximum from the leash position the NPC can go before turning back."
     },
     "NameTranslationKey": {
